@@ -70,3 +70,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-05-16 20:50:36.700
 !MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-16 20:53:27.840
+!MESSAGE Indexed 'DAC_pooling' (22 sources, 82 headers) in 2.33 sec: 4,990 declarations; 26,422 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0064%)
