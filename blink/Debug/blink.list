@@ -392,7 +392,7 @@ int main(void)
 	*/
 
 	// another way...
-	HAL_GPIO_TogglePin(GPIOA,LD2_Pin);
+	HAL_GPIO_TogglePin( LD2_GPIO_Port ,LD2_Pin);
  8000522:	2120      	movs	r1, #32
  8000524:	4806      	ldr	r0, [pc, #24]	; (8000540 <main+0x38>)
  8000526:	f000 fd18 	bl	8000f5a <HAL_GPIO_TogglePin>
@@ -401,7 +401,7 @@ int main(void)
  800052e:	eefc 7ae7 	vcvt.u32.f32	s15, s15
  8000532:	ee17 0a90 	vmov	r0, s15
  8000536:	f000 fa59 	bl	80009ec <HAL_Delay>
-	HAL_GPIO_TogglePin(GPIOA,LD2_Pin);
+	HAL_GPIO_TogglePin( LD2_GPIO_Port ,LD2_Pin);
  800053a:	e7f2      	b.n	8000522 <main+0x1a>
  800053c:	43fa0000 	.word	0x43fa0000
  8000540:	40020000 	.word	0x40020000

@@ -102,14 +102,14 @@ int main(void)
 
 	// one way of doing it
 	/*
-	HAL_GPIO_WritePin(GPIOA, LD2_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
 	HAL_Delay( delay_time );
-	HAL_GPIO_WritePin(GPIOA, LD2_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
 	HAL_Delay( delay_time );
 	*/
 
 	// another way...
-	HAL_GPIO_TogglePin(GPIOA,LD2_Pin);
+	HAL_GPIO_TogglePin( LD2_GPIO_Port ,LD2_Pin);
 	HAL_Delay( delay_time );
 
     /* USER CODE END WHILE */

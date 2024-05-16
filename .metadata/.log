@@ -25,3 +25,48 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-05-16 20:13:41.358
 !MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2024-05-16 20:25:14.657 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-16 20:25:19.038
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-05-16 20:25:22.563
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-05-16 20:25:22.648
+!MESSAGE Log4j initialized with config file /home/gosmann/Documents/stm32_examples/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-05-16 20:25:29.845
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-16 20:29:29.728
+!MESSAGE Indexed 'button' (22 sources, 82 headers) in 3.25 sec: 4,990 declarations; 26,422 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0064%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-05-16 20:35:11.721
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-05-16 20:35:56.433
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-05-16 20:36:21.229
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-05-16 20:36:39.315
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-05-16 20:50:36.698
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 12 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-05-16 20:50:36.699
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-05-16 20:50:36.699
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 12 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-05-16 20:50:36.700
+!MESSAGE Existing sessions are:
