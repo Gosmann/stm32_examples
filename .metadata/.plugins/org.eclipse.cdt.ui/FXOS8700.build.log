@@ -1,0 +1,10 @@
+23:12:00 **** Incremental Build of configuration Debug for project FXOS8700 ****
+make -j12 all 
+arm-none-eabi-size   FXOS8700.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16680	     20	   1724	  18424	   47f8	FXOS8700.elf
+Finished building: default.size.stdout
+ 
+
+23:12:01 Build Finished. 0 errors, 0 warnings. (took 1s.94ms)
+
