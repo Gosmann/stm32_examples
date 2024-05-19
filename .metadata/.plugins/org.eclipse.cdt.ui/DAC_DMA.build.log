@@ -1,0 +1,69 @@
+01:00:35 **** Incremental Build of configuration Debug for project DAC_DMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:87:3: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   87 |   sprintf(buffer, "%04d \n", dac_values[i]);
+      |   ^~~~~~~
+../Core/Src/main.c:87:3: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:133:3: warning: incompatible implicit declaration of built-in function 'sprintf'
+  133 |   sprintf(buffer, "Hello World! \n");
+      |   ^~~~~~~
+../Core/Src/main.c:133:3: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:136:70: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  136 |   HAL_StatusTypeDef result2 = HAL_UART_Transmit_DMA(&huart2, buffer, strlen(buffer));
+      |                                                                      ^~~~~~
+../Core/Src/main.c:136:70: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:136:62: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  136 |   HAL_StatusTypeDef result2 = HAL_UART_Transmit_DMA(&huart2, buffer, strlen(buffer));
+      |                                                              ^~~~~~
+      |                                                              |
+      |                                                              char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:726:83: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  726 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                    ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:144:70: warning: passing argument 3 of 'HAL_DAC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  144 |   HAL_StatusTypeDef result = HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, dac_values, 8, DAC_ALIGN_12B_R);
+      |                                                                      ^~~~~~~~~~
+      |                                                                      |
+      |                                                                      uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:319,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h:407:90: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  407 | HAL_StatusTypeDef HAL_DAC_Start_DMA(DAC_HandleTypeDef *hdac, uint32_t Channel, uint32_t *pData, uint32_t Length,
+      |                                                                                ~~~~~~~~~~^~~~~
+../Core/Src/main.c:144:21: warning: unused variable 'result' [-Wunused-variable]
+  144 |   HAL_StatusTypeDef result = HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, dac_values, 8, DAC_ALIGN_12B_R);
+      |                     ^~~~~~
+../Core/Src/main.c:136:21: warning: unused variable 'result2' [-Wunused-variable]
+  136 |   HAL_StatusTypeDef result2 = HAL_UART_Transmit_DMA(&huart2, buffer, strlen(buffer));
+      |                     ^~~~~~~
+arm-none-eabi-gcc -o "DAC_DMA.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/gosmann/Documents/stm32_examples/DAC_DMA/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DAC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DAC_DMA.elf
+ 
+arm-none-eabi-size   DAC_DMA.elf 
+arm-none-eabi-objdump -h -S  DAC_DMA.elf  > "DAC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  23460	    160	   2064	  25684	   6454	DAC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: DAC_DMA.list
+ 
+
+01:00:36 Build Finished. 0 errors, 9 warnings. (took 1s.545ms)
+

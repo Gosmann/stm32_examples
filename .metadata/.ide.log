@@ -13315,3 +13315,764 @@
 2024-05-20 00:03:12,117 [INFO] ApiDb:447 - User favorites MCUs=[]
 2024-05-20 00:03:12,120 [INFO] ApiDb:443 - Save user favorites file /home/gosmann/.stm32cubeide/favorites.boards.txt: 0 item(s)
 2024-05-20 00:03:12,121 [INFO] ApiDb:447 - User favorites Boards=[]
+2024-05-20 00:04:33,369 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,625x357,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:04:43,781 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:04:51,070 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:04:54,723 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:05:30,710 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 659931320 Bytes (1034944512)
+2024-05-20 00:05:31,679 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 690862264 Bytes (1034944512)
+2024-05-20 00:05:33,472 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824883416 Bytes (1034944512)
+2024-05-20 00:05:33,855 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:05:33,855 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:05:33,855 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:05:33,856 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:05:33,856 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:05:33,856 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:05:33,856 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:05:33,856 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:05:34,138 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:05:34,222 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:05:34,232 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:05:34,312 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:05:34,372 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:05:34,450 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:05:34,451 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:05:34,518 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:05:34,524 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:05:34,617 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:05:34,618 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:05:34,690 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:05:34,694 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:05:34,813 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:05:34,814 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:05:34,891 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:05:34,894 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:05:34,987 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:05:35,002 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:05:35,008 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:05:35,083 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:05:35,084 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:05:35,194 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:05:36,156 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 31mS.
+2024-05-20 00:05:36,157 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:05:36,471 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:05:37,962 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1805mS.
+2024-05-20 00:05:37,963 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:05:37,963 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:12:32,861 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:12:41,774 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 542468912 Bytes (1034944512)
+2024-05-20 00:12:42,612 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 571306800 Bytes (1034944512)
+2024-05-20 00:12:45,110 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 653617968 Bytes (1034944512)
+2024-05-20 00:12:45,391 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:12:45,391 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:12:45,391 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:12:45,391 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:12:45,392 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:12:45,392 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:12:45,392 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:12:45,392 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : hdmavalue: null
+2024-05-20 00:12:45,394 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : Initvalue: null
+2024-05-20 00:12:45,394 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:12:45,394 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:12:45,394 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : Lockvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : Lockvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : Statevalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : Statevalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : Parentvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : Parentvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:12:45,395 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2024-05-20 00:12:45,396 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2024-05-20 00:12:45,683 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:12:45,752 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:12:45,762 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:12:45,834 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:12:45,888 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:12:45,958 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:12:45,959 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:12:46,025 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:12:46,030 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:12:46,110 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:12:46,111 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:12:46,179 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:12:46,182 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:12:46,282 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:12:46,283 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:12:46,350 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:12:46,352 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:12:46,435 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:12:46,451 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:12:46,457 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:12:46,528 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:12:46,530 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:12:46,640 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:12:47,405 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 37mS.
+2024-05-20 00:12:47,407 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:12:48,047 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:12:49,787 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 2380mS.
+2024-05-20 00:12:49,788 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-05-20 00:12:49,788 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:13:15,233 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:13:19,605 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:13:19,901 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:13:20,503 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:13:23,044 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 483602456 Bytes (1034944512)
+2024-05-20 00:13:23,795 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 513488920 Bytes (1034944512)
+2024-05-20 00:13:25,369 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 563099704 Bytes (1034944512)
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:13:25,637 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:13:25,638 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:13:25,638 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:13:25,639 [INFO] Argument:300 - Argument : hdmavalue: null
+2024-05-20 00:13:25,639 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:13:25,639 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:13:25,639 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : Initvalue: null
+2024-05-20 00:13:25,640 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:13:25,640 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:13:25,640 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : Lockvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : Lockvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : Statevalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : Statevalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : Parentvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : Parentvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2024-05-20 00:13:25,641 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2024-05-20 00:13:25,911 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:13:26,012 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:13:26,021 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:13:26,093 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:13:26,178 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:13:26,249 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:13:26,250 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:13:26,317 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:13:26,324 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:13:26,414 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:13:26,415 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:13:26,485 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:13:26,488 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:13:26,598 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:13:26,599 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:13:26,668 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:13:26,670 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:13:26,756 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:13:26,771 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:13:26,775 [WARN] IPConfigManager:3348 - IP not found : TIM
+2024-05-20 00:13:26,776 [WARN] CodeGenerator:3567 - IP not found : null
+2024-05-20 00:13:26,778 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:13:26,851 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:13:26,852 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:13:26,987 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:13:27,672 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 36mS.
+2024-05-20 00:13:27,674 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:13:27,985 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:13:29,487 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1813mS.
+2024-05-20 00:13:29,487 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:13:29,488 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:14:02,070 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:14:05,097 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:14:07,101 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:14:09,122 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:14:11,137 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:14:45,195 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:14:47,214 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:14:49,226 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:17:00,542 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:17:02,546 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:17:04,550 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:17:06,570 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:17:09,604 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 00:17:11,606 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 00:18:09,156 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:18:11,986 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 585851312 Bytes (1034944512)
+2024-05-20 00:18:12,893 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 613786464 Bytes (1034944512)
+2024-05-20 00:18:14,475 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 661422688 Bytes (1034944512)
+2024-05-20 00:18:14,727 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2024-05-20 00:18:14,727 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:18:14,728 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:18:14,728 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : hdmavalue: null
+2024-05-20 00:18:14,730 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : Initvalue: null
+2024-05-20 00:18:14,730 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:18:14,730 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:18:14,730 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : Lockvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : Lockvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : Statevalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : Statevalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : Parentvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : Parentvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:18:14,731 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:18:14,732 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:18:14,732 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:18:14,732 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:18:14,732 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2024-05-20 00:18:14,732 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2024-05-20 00:18:15,097 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:18:15,199 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:18:15,211 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:18:15,289 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:18:15,418 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:18:15,498 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:18:15,498 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:18:15,565 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:18:15,573 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:18:15,650 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:18:15,651 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:18:15,723 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:18:15,726 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:18:15,828 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:18:15,829 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:18:15,897 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:18:15,899 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:18:15,981 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:18:15,997 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:18:16,001 [WARN] IPConfigManager:3348 - IP not found : TIM
+2024-05-20 00:18:16,001 [WARN] CodeGenerator:3567 - IP not found : null
+2024-05-20 00:18:16,003 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:18:16,075 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:18:16,076 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:18:16,210 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:18:17,037 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 32mS.
+2024-05-20 00:18:17,039 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:18:17,424 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:18:18,787 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1748mS.
+2024-05-20 00:18:18,788 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-05-20 00:18:18,788 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:20:42,147 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:20:43,596 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 588639480 Bytes (1034944512)
+2024-05-20 00:20:45,273 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 617999608 Bytes (1034944512)
+2024-05-20 00:20:45,530 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 645784824 Bytes (1034944512)
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:20:45,750 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:20:45,751 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : hdmavalue: null
+2024-05-20 00:20:45,752 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:20:45,752 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : Initvalue: null
+2024-05-20 00:20:45,752 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:20:45,752 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:20:45,752 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:20:45,752 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:20:45,752 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : Lockvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : Lockvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : Statevalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : Statevalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:300 - Argument : Parentvalue: null
+2024-05-20 00:20:45,753 [INFO] Argument:310 - Argument : Parentvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2024-05-20 00:20:45,754 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2024-05-20 00:20:45,965 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:20:46,032 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:20:46,041 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:20:46,110 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:20:46,302 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:20:46,373 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:20:46,374 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:20:46,440 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:20:46,448 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:20:46,524 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:20:46,525 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:20:46,593 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:20:46,596 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:20:46,696 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:20:46,697 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:20:46,764 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:20:46,767 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:20:46,848 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:20:46,863 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:20:46,867 [WARN] IPConfigManager:3348 - IP not found : TIM
+2024-05-20 00:20:46,867 [WARN] CodeGenerator:3567 - IP not found : null
+2024-05-20 00:20:46,869 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:20:46,941 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:20:46,942 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:20:47,056 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:20:47,776 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 34mS.
+2024-05-20 00:20:47,778 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:20:48,092 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:20:49,462 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1684mS.
+2024-05-20 00:20:49,462 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:20:49,463 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:31:58,792 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,818x375,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:32:01,318 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:32:08,773 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:32:13,938 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:32:18,479 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-20 00:41:29,000 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 714893776 Bytes (1034944512)
+2024-05-20 00:41:30,401 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 748448208 Bytes (1034944512)
+2024-05-20 00:41:30,716 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 810576352 Bytes (1034944512)
+2024-05-20 00:41:30,987 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DAC
+2024-05-20 00:41:30,988 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-05-20 00:41:30,989 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2024-05-20 00:41:30,990 [INFO] Argument:300 - Argument : hdmavalue: null
+2024-05-20 00:41:30,991 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : Initvalue: null
+2024-05-20 00:41:30,991 [INFO] Argument:302 - 	 sub Args: 
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_7
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-05-20 00:41:30,991 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:41:30,991 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : Lockvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : Lockvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : Statevalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : Statevalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : Parentvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : Parentvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:41:30,992 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2024-05-20 00:41:30,993 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2024-05-20 00:41:31,294 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp_save
+2024-05-20 00:41:31,372 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/license.tmp
+2024-05-20 00:41:31,385 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp_save
+2024-05-20 00:41:31,462 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/gpio.tmp
+2024-05-20 00:41:31,725 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp_save
+2024-05-20 00:41:31,808 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma.tmp
+2024-05-20 00:41:31,809 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp_save
+2024-05-20 00:41:31,886 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/dma_GV.tmp
+2024-05-20 00:41:31,897 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c_save
+2024-05-20 00:41:32,004 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_it.c
+2024-05-20 00:41:32,005 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h_save
+2024-05-20 00:41:32,191 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_it.h
+2024-05-20 00:41:32,194 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c_save
+2024-05-20 00:41:32,304 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/stm32f4xx_hal_msp.c
+2024-05-20 00:41:32,306 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp_save
+2024-05-20 00:41:32,372 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/MXTmpFiles/system.tmp
+2024-05-20 00:41:32,374 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-05-20 00:41:32,454 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/stm32f4xx_hal_conf.h
+2024-05-20 00:41:32,469 [WARN] IPConfigManager:2910 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-20 00:41:32,473 [WARN] IPConfigManager:3348 - IP not found : TIM
+2024-05-20 00:41:32,474 [WARN] CodeGenerator:3567 - IP not found : null
+2024-05-20 00:41:32,475 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h_save
+2024-05-20 00:41:32,547 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Inc/main.h
+2024-05-20 00:41:32,548 [INFO] CodeEngine:245 - oldGeneratedFile, /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c_save
+2024-05-20 00:41:32,662 [INFO] CodeEngine:269 - Generated code: /home/gosmann/Documents/stm32_examples/DAC_DMA/Core/Src/main.c
+2024-05-20 00:41:33,355 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 32mS.
+2024-05-20 00:41:33,357 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-05-20 00:41:33,671 [INFO] ConfigFileManager:1394 - The Die is : DIE421
+2024-05-20 00:41:35,080 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1723mS.
+2024-05-20 00:41:35,080 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-05-20 00:41:35,081 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-05-20 01:08:02,222 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 01:08:05,254 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 01:08:07,257 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 01:08:09,274 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 01:08:11,277 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2024-05-20 01:08:13,289 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2024-05-20 01:11:25,459 [INFO] MainUpdater:2768 - connection check result : 10
+2024-05-20 01:11:25,459 [INFO] MainUpdater:2768 - connection check result : 10
+2024-05-20 01:11:25,688 [INFO] MicroXplorer:451 - Change Database Path : 
+2024-05-20 01:11:25,688 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2024-05-20 01:11:25,707 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2024-05-20 01:11:25,707 [INFO] ThirdParty:829 - entering critical section [close project]
+2024-05-20 01:11:25,707 [INFO] ThirdParty:839 - exiting critical section [close project]
+2024-05-20 01:11:25,709 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2024-05-20 01:11:25,714 [WARN] IpParametersView:148 - Warning: This peripheral hasn't parameters
+2024-05-20 01:11:25,718 [WARN] MainPanel:253 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-05-20 01:11:25,721 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 561959288 Bytes (1034944512)
+2024-05-20 01:11:25,721 [INFO] MicroXplorer:451 - Change Database Path : 
+2024-05-20 01:11:25,722 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2024-05-20 01:11:25,722 [INFO] OpenFileManager:307 - Change cursor
+2024-05-20 01:11:25,733 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2024-05-20 01:11:25,735 [INFO] Mcu:1922 - Initializing MCU STM32F446R(C-E)Tx STM32F446RETx STM32F446RET6
+2024-05-20 01:11:27,005 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2024-05-20 01:11:27,300 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-05-20 01:11:27,300 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-05-20 01:11:27,300 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-05-20 01:11:27,304 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC06A1' from pack STMicroelectronics.X-CUBE-NFC6.3.1.0: no header file found
+2024-05-20 01:11:27,305 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC08A1' from pack STMicroelectronics.X-CUBE-NFC6.3.1.0: no header file found
+2024-05-20 01:11:27,305 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-05-20 01:11:27,305 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-05-20 01:11:27,305 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-05-20 01:11:27,305 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-05-20 01:11:27,305 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-05-20 01:11:27,306 [WARN] ApiManager:308 - Cannot register API 'Board Extension:STSAFEA1' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-05-20 01:11:27,306 [WARN] ApiManager:308 - Cannot register API 'Board Part:STSAFEA110' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-05-20 01:11:27,306 [WARN] ApiManager:308 - Cannot register API 'Security:ST_Cryptolib' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-05-20 01:11:27,306 [WARN] ApiManager:308 - Cannot register API 'Security:MbedTLS' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-05-20 01:11:27,307 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.3.0.0: no header file found
+2024-05-20 01:11:27,309 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-05-20 01:11:27,309 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-05-20 01:11:27,309 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-05-20 01:11:27,312 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.7.0.0: no header file found
+2024-05-20 01:11:27,312 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Extension:PGEEZ1' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEICA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Part:M24' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95P32' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Part:M24256E-F' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'Board Part:M24M01E-F' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:SPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:QDSPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,313 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,314 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-05-20 01:11:27,436 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.10.0.0: no header file found
+2024-05-20 01:11:27,436 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.10.0.0: no header file found
+2024-05-20 01:11:27,436 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS4A1' from pack STMicroelectronics.X-CUBE-MEMS1.10.0.0: no header file found
+2024-05-20 01:11:27,439 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.1: no header file found
+2024-05-20 01:11:27,446 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-05-20 01:11:27,446 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-05-20 01:11:27,446 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-05-20 01:11:27,446 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2024-05-20 01:11:27,460 [INFO] ThirdPartyModel:289 - Start build external matchings
+2024-05-20 01:11:28,184 [INFO] ThirdPartyModel:302 - End build external matchings
+2024-05-20 01:11:28,213 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2024-05-20 01:11:28,214 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (ADC1) currently not set
+2024-05-20 01:11:28,214 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2024-05-20 01:11:28,214 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2024-05-20 01:11:28,214 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2024-05-20 01:11:28,214 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC1) currently not set
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48MHZClocksFreq_Value)
+2024-05-20 01:11:28,215 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (EthernetFreq_Value)
+2024-05-20 01:11:28,216 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2024-05-20 01:11:28,216 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2024-05-20 01:11:28,216 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2SClocksFreq_Value)
+2024-05-20 01:11:28,217 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDIOFreq_Value) has invalid value (168000000)
+2024-05-20 01:11:28,217 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (168000000)
+2024-05-20 01:11:28,217 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOInputMFreq_Value)
+2024-05-20 01:11:28,217 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2024-05-20 01:11:28,441 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 760863416 Bytes (1034944512)
+2024-05-20 01:11:28,459 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2024-05-20 01:11:28,459 [INFO] ThirdParty:791 - entering critical section [change project]
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.2
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-05-20 01:11:28,459 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-05-20 01:11:28,460 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-05-20 01:11:28,461 [INFO] ThirdParty:797 - exiting critical section [change project]
+2024-05-20 01:11:28,701 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2024-05-20 01:11:28,701 [INFO] PinOutPanel:1468 - setPackage(STM32F446RETx,LQFP64)
+2024-05-20 01:11:29,005 [INFO] UtilMem:74 - Before build in PCC Used Memory: 486158656 Bytes (1034944512)
+2024-05-20 01:11:29,153 [INFO] UtilMem:74 - After build in PCC Used Memory: 535439680 Bytes (1034944512)
+2024-05-20 01:11:29,175 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,175 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,176 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,177 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,178 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,178 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,178 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,178 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,179 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,179 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,179 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,179 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,179 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,180 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,180 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,180 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,180 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,181 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,183 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,183 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,183 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,183 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,184 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,184 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,184 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,185 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,185 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,186 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,186 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,186 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,187 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,187 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-05-20 01:11:29,189 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2024-05-20 01:11:29,242 [INFO] OpenFileManager:327 - Restore cursor
+2024-05-20 01:11:29,244 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (/home/gosmann/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)

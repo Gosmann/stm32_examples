@@ -78,8 +78,15 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 
 HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 
-	if( htim == &htim2 ){
+	char buffer[100];
 
+	float adc_voltage_0 = ((float)(adc_values[0]) / 4095.0 ) * 3.3 ;
+	float adc_voltage_1 = ((float)(adc_values[1]) / 4095.0 ) * 3.3 ;
+
+	sprintf(buffer, "adc1: %f | adc2: %f \n", adc_voltage_0, adc_voltage_1);
+
+	if( htim == &htim2 ){
+		HAL_StatusTypeDef result = HAL_UART_Transmit( &huart2, buffer, strlen(buffer), 100);
 	}
 
 }
@@ -125,7 +132,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_DAC_Start( &hdac , DAC_CHANNEL_1 );
 
-  float dac_voltage = 2.00 ;				// voltage to be defined
+  float dac_voltage = 1.15 ;				// voltage to be defined
   float v_max = 3.280 ;					// max voltage of the DAC
   uint32_t max_resolution = 4095 ;		// max value admissible by the DAC (0~4095)
 
