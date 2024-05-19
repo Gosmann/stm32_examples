@@ -1,12 +1,16 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:button Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DAC_pooling Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timer_IT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FXOS8700 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EX1 Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:button Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timer_IT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EX1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FXOS8700 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:USART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DAC_pooling Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC_DAC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:REGISTERS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC_DMA Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC_DAC\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC_DMA\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DAC_pooling\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DAC_pooling\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FXOS8700\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:REGISTERS\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:USART\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:button\ Debug/activeLaunchMode=run

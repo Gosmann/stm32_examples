@@ -1,0 +1,60 @@
+21:18:26 **** Incremental Build of configuration Debug for project USART ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   99 |  sprintf(&message, "Hello world! \n\r");
+      |  ^~~~~~~
+../Core/Src/main.c:99:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:99:10: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   99 |  sprintf(&message, "Hello world! \n\r");
+      |          ^~~~~~~~
+      |          |
+      |          char (*)[100]
+../Core/Src/main.c:99:10: note: expected 'char *' but argument is of type 'char (*)[100]'
+../Core/Src/main.c:101:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  101 |  int size = strlen(message) ;
+      |             ^~~~~~
+../Core/Src/main.c:101:13: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:103:56: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |  HAL_StatusTypeDef result = HAL_UART_Transmit(&huart2, message, size, 100);
+      |                                                        ^~~~~~~
+      |                                                        |
+      |                                                        char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:104:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |  printf("%s", message);
+      |  ^~~~~~
+../Core/Src/main.c:104:2: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:104:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:103:20: warning: unused variable 'result' [-Wunused-variable]
+  103 |  HAL_StatusTypeDef result = HAL_UART_Transmit(&huart2, message, size, 100);
+      |                    ^~~~~~
+arm-none-eabi-gcc -o "USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/gosmann/Documents/stm32_examples/USART/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USART.elf
+ 
+arm-none-eabi-size   USART.elf 
+arm-none-eabi-objdump -h -S  USART.elf  > "USART.list"
+   text	   data	    bss	    dec	    hex	filename
+  14568	    120	   1656	  16344	   3fd8	USART.elf
+Finished building: default.size.stdout
+ 
+Finished building: USART.list
+ 
+
+21:18:27 Build Finished. 0 errors, 9 warnings. (took 1s.448ms)
+

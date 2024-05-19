@@ -36,6 +36,10 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 
+#define MAX(a, b)	( a > b ) ? a : b
+
+#define MAX3(a, b, c)	MAX( MAX(a, b), c)
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -55,6 +59,13 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void set_bit( uint32_t * reg, int bit_num ){
+	  reg[0] |= ( 0x01 << bit_num );
+}
+
+void reset_bit( uint32_t * reg, int bit_num ){
+	  reg[0] &= ~( 0x01 << bit_num );
+}
 
 /* USER CODE END 0 */
 
@@ -89,11 +100,22 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  // do a byte swap 0xCC8700FC -> 0xFC0087CC
+  // ex1. invert byte orders 0xCC8700FC -> 0xFC0087CC
 
   uint32_t var1 = 0xCC8700FC ;
-  uint32_t var2 = var1;
+  uint32_t var2 = 0 ;
 
+  uint8_t temp ;
+  int i;
+
+  for(i = 0 ; i < 4 ; i++){
+	  temp = (var1 >> i*8) & 0xFF ;
+	  var2 |= (temp << (3-i)*8) ;
+  }
+
+  // worse way of doing it:
+
+  /*
   uint32_t temp1 = var1 & 0x000000FF ; 		// 0x000000FC
   uint32_t temp2 = var1 & 0xFF000000 ;		// 0xCC000000
 
@@ -111,6 +133,27 @@ int main(void)
 
   var2 &= 0xFF00FFFF ;
   var2 |= ( temp1 << 2*4 ) ;
+   */
+
+  // ex2 . write a set and a reset logic for a 32 bit variable
+
+  uint32_t reg = 0xCD0E ;
+
+  set_bit( &reg, 7 );
+
+  reset_bit( &reg, 7 );
+
+  // ex3 . write a macro to find de largest of 3 numbers
+  int res = MAX3(440, 66, 88) ;
+
+  // ex4 . swap 2 number without using an extra variable
+  int a = 10 ;
+  int b = 30 ;
+
+  a = a + b ;
+  b = a - b ;
+  a = a - b ;
+
 
   /* USER CODE END 2 */
 

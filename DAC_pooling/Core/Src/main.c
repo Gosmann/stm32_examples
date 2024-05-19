@@ -98,7 +98,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_DAC_Start( &hdac , DAC_CHANNEL_1 );
 
-  float dac_voltage = 0.6 ;				// voltage to be defined
+  float dac_voltage = 2.0 ;				// voltage to be defined
   float v_max = 3.280 ;					// max voltage of the DAC
   uint32_t max_resolution = 4095 ;		// max value admissible by the DAC (0~4095)
 
@@ -112,6 +112,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  HAL_DAC_SetValue( &hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dac_value ) ;
+
 	  //HAL_DAC_SetValue( &hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 4095) ;
 
     /* USER CODE BEGIN 3 */
