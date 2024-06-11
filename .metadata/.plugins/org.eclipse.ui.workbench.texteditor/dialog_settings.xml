@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="HAL_TIM_PeriodElapsedCallback"/>
+		<item key="selection" value="avg"/>
 		<item key="wrap" value="true"/>
-		<item key="casesensitive" value="false"/>
+		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="avg"/>
+			<item value="float"/>
+			<item value="address"/>
+			<item value="resultad"/>
+			<item value="result"/>
+			<item value="res"/>
+			<item value="add"/>
+			<item value="ErrorCode"/>
+			<item value="error"/>
 			<item value="HAL_TIM"/>
 			<item value="HAL_TIMx"/>
 			<item value="HAL_TIM1"/>
 			<item value="HAL_TIM1_PeriodElapsedCallback"/>
 			<item value="HAL_TIM_PeriodElapsedCallback"/>
 			<item value="HAL_TIM_Perio"/>
-			<item value="HAL_TIM_PeriodElapsedCall"/>
-			<item value="void HAL_TIM_PeriodElapsedCallback( &amp;htim1 ){&#x0A;&#x09;int a = 3 ;&#x0A;}&#x0A;"/>
-			<item value="HAL_Time_Ba"/>
-			<item value="HAL_Time_Base"/>
-			<item value="HAL_Tim"/>
-			<item value="RESET"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="1401"/>
-		<item key="DIALOG_Y_ORIGIN" value="456"/>
+		<item key="DIALOG_Y_ORIGIN" value="459"/>
 		<item key="DIALOG_WIDTH" value="343"/>
-		<item key="DIALOG_HEIGHT" value="432"/>
+		<item key="DIALOG_HEIGHT" value="429"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
 	</section>
 </section>

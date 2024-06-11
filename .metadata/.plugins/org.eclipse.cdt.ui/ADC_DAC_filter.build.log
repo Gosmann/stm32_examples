@@ -1,0 +1,21 @@
+19:02:10 **** Incremental Build of configuration Debug for project ADC_DAC_filter ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:21: warning: unused variable 'result_adc' [-Wunused-variable]
+  107 |   HAL_StatusTypeDef result_adc = HAL_ADC_PollForConversion( &hadc1 , 100 ) ;
+      |                     ^~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_DAC_filter.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/gosmann/Documents/stm32_examples/ADC_DAC_filter/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_DAC_filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_DAC_filter.elf
+ 
+arm-none-eabi-size   ADC_DAC_filter.elf 
+arm-none-eabi-objdump -h -S  ADC_DAC_filter.elf  > "ADC_DAC_filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  13368	     24	   1752	  15144	   3b28	ADC_DAC_filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_DAC_filter.list
+ 
+
+19:02:12 Build Finished. 0 errors, 1 warnings. (took 1s.586ms)
+
